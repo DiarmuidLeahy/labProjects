@@ -1,7 +1,5 @@
-package lab4;
-
 import java.util.*;
-import lab2.Node;
+
 public class Huffman
 {
 	public static void main(String[] args)
