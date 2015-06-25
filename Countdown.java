@@ -14,7 +14,6 @@ public class Countdown
 		char [] vowel={'a','e','i','o','u'},consonant={'q','w','r','t','y','p','s','d','f','g','h','j','k','l','z','x','c','v','b','n','m'},letters=new char[9];
 		Scanner sc =new Scanner(System.in); 
 		int choice;
-		
 		FileIO reader = new FileIO();
 		String input="";
 		String[] dictionary = reader.load("C:/Users/Derri_000/Documents/Document.tsv");//file is separated by line
