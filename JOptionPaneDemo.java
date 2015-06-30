@@ -25,7 +25,7 @@ public class JOptionPaneDemo
 	{
 		JOptionPaneDemo jopd = new JOptionPaneDemo();
 		int turn = 0;
-		while(turn<3)	//let the program do three iterations to show how the balance is dyamic (ie -  it's saved after each instruction)
+		while(turn<3)	//let the program do three iterations to show how the balance is dynamic (ie -  it's saved after each instruction)
 		{
 			turn++;
 			jopd.getInput();
