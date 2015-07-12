@@ -114,7 +114,7 @@ public class Hashing
 		int total = 0;
 		for(int i=0; i<word.length();i++)
 		{
-			total=total+(int)(word.charAt(i));
+			total+=(int)(word.charAt(i));
 			//add up all of the letters
 		}
 		
