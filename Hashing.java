@@ -65,7 +65,7 @@ public class Hashing
 				//depending on the strategy go up in linear jumps, quadratic jumps or the double hash jump
 				index++;
 				probes++;
-				index=index%size;
+				index%=size;
 				//always mod the index size so it doesn't go out of bounds
 			}
 			else if(strategy==2)
