@@ -22,7 +22,7 @@ public class SamplePaper_Question_2
 			if(i%105==0) System.out.print(", fizzbuzzwoof"); //multiples of 3, 5 and 7
 			else if(i%35==0) System.out.print(", buzzwoof"); //multiples of 5 and 7
 			else if(i%21==0) System.out.print(", fizzwoof"); //multiples of 3 and 7
-		    else if(i%15==0) System.out.print(", fizzbuzz"); //multiples of 3 and 5
+			else if(i%15==0) System.out.print(", fizzbuzz"); //multiples of 3 and 5
 			else if(i%3==0) System.out.print(", fizz");
 			else if(i%5==0) System.out.print(", buzz");
 			else if(i%7==0) System.out.print(", woof");
