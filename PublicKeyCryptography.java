@@ -42,6 +42,11 @@ public class PublicKeyCryptography
 		System.out.println("The message is "+"\""+message+"\"");
 		myscanner.close();
 	}
+	/**
+	 * Finding the power while moduloeing to keep the result within the limits of an Integer
+	 * @param long number, long power, long modulus
+	 * @return long result
+	 * */
 	public static long power(long number, long power, long modulus)
 	{
 		if(power==0) return 1;
