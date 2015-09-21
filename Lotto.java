@@ -13,14 +13,17 @@ public class Lotto
 		double probability=0.0;
 		int count = 0,runs=1000000;
 		long start = System.currentTimeMillis();
+		
 		for(int i=0;i<runs;i++)	//perform a monte carlo simulation to achieve a more accurate result
 		{
 			int [] shuffled = new int [6];
 			shuffleArray(arr); //call the shuffleaArray method below
+			
 			for(int j=0;j<6;j++)
 			{
 				shuffled[j]=arr[j]; //copy the first 6 numbers of the shuffled array into a new array
 			}
+			
 			Arrays.sort(shuffled);
 			if(isContinuous(shuffled)) count++;
 		}
