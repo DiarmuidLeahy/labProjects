@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.Random;
 
-public class Teyu2 {
+public class Teyu {
 
 	public static Coordinate [][] events = new Coordinate [20][20];
 	
