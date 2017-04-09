@@ -6,7 +6,7 @@ import java.util.Comparator;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Teyu2 {
+public class Teyu {
 
 	public static Coordinate [][] events = new Coordinate [21][21];	//Defined globally so that all methods have access
 	
